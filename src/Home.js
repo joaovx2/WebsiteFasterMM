@@ -1,5 +1,6 @@
 import React from 'react';
 import Product from './Product';
+import Footer from './Footer';
 import './home.css'
 import './Product.css'
 
@@ -59,6 +60,7 @@ function Home() {
            score = {3}
         />
        </div>
+       <Footer />
     </div>
   )
 }
