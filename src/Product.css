@@ -1,0 +1,132 @@
+.Product__score {
+    display: flex;
+}
+
+.product {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 400px;
+    min-width: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    border: 1px solid #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.02);
+}
+
+.product > img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.product__buttons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.button-container {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    flex: 1 1 30%;
+}
+
+.button-container:last-child {
+    margin-right: 0;
+}
+
+.product > button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.product > button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+.product__price {
+    margin-top: 10px;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.product__info {
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.discount {
+    font-size: 0.8em;
+    color: red;
+    margin-left: 5px;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 600px) {
+    .product {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .product__info {
+        font-size: 0.9em;
+        text-align: center;
+        width: 100%;
+    }
+
+    .product__buttons {
+        flex-direction: column;
+    }
+
+    .button-container {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .product__price {
+        font-size: 1em;
+    }
+
+    .Product__score {
+        font-size: 1em;
+    }
+
+    .Product__Info p {
+        font-size: 0.9em;
+        word-wrap: break-word;
+    }
+}
