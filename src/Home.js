@@ -25,41 +25,41 @@ function Home() {
         />
         <Product
            id = "2"
-           title = "PRODUTAO NUMERO 2"
+           title = "Fone De Ouvido bluetooth V5.3 M10 Sem Fio"
            image = "./imgs/Produto2.png"
-           price = {44.69}
+           price = {28.99}
            score = {5}
         />
     </div>
     <div className = "home_row">
          <Product
            id = "3"
-           title = "PRODUTAO NUMERO 3"
+           title = "Cafeteira Dolce Gusto Mini Me DMM8 Automática"
            image = "./imgs/Produto3.png"
-           price = {69.69}
+           price = {299.99}
            score = {5}
         />
          <Product
            id = "4"
-           title = "PRODUTAO NUMERO 4"
+           title = "Refrigerador 340L 2 Portas 220V"
            image = "./imgs/Produto4.png"
-           price = {24.69}
+           price = {839.99}
            score = {5}
         />
          <Product
            id = "5"
-           title = "PRODUTAO NUMERO 5"
+           title = "Aparador de Pelos Super Groom 10 em 1"
            image = "./imgs/Produto5.png"
-           price = {124.69}
+           price = {839.99}
            score = {4}
         />
     </div>
        <div className = "home_row">
        <Product
            id = "6"
-           title = "PRODUTAO NUMERO 6"
+           title = "Fogão 5 Bocas Atlas Vidro Preto Bivolt"
            image = "./imgs/Produto6.png"
-           price = {224.69}
+           price = {559.99}
            score = {3}
         />
        </div>
@@ -73,10 +73,33 @@ function Home() {
         />
         <Product
            id = "2"
-           title = "PRODUTAO NUMERO 2"
+           title = "Smartphone xiaomi"
            image = "./imgs/Produto2.png"
-           price = {44.69}
+           price = {909.99}
            score = {5}
+        />
+    </div>
+    <div className = "home_row">
+         <Product
+           id = "3"
+           title = "Maleta De Maquiagem Profissional"
+           image = "./imgs/Produto3.png"
+           price = {119.99}
+           score = {5}
+        />
+         <Product
+           id = "4"
+           title = "Cinta Feminina Redutora Abdominal 12 Barbatanas"
+           image = "./imgs/Produto4.png"
+           price = {91.99}
+           score = {5}
+        />
+         <Product
+           id = "5"
+           title = "Combo Maquiagem Completa Para Presente"
+           image = "./imgs/Produto5.png"
+           price = {59.99}
+           score = {4}
         />
     </div>
        <Footer />
