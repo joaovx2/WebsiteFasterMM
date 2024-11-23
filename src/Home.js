@@ -3,7 +3,8 @@ import Product from './Product';
 import Footer from './Footer';
 import './home.css'
 import './Product.css'
-import UserNotification from './user'; // Import the UserNotification component
+import UserNotification from './user'; 
+
 
 function Home() {
   return (

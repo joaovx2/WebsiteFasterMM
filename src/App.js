@@ -6,6 +6,7 @@ import Home from './Home';
 import Login from './login';  
 import Checkout from './checkout';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ProductDetail from './ProductDetail';
 
 function App() {
   return (

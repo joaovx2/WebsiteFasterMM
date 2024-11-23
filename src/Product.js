@@ -6,6 +6,8 @@ import { useStateValue } from './StateProvider';
 function Product({id, title, image, price, score}) {
   const [{}, dispatch] = useStateValue();
 
+  
+
   const AddToCarrinho = (paymentMethod) => {
       dispatch ({
         type: 'ADD_TO_CART',
@@ -54,7 +56,7 @@ function Product({id, title, image, price, score}) {
         </div>
      </div>
 </div>
-  )
+  );
 }
 
-export default Product
+export default Product;

@@ -1,6 +1,6 @@
 .notification {
     position: fixed;
-    top: 20px; /* Distance from the top */
+    top: 60px; /* Adjusted distance from the top */
     right: 20px; /* Distance from the right */
     background-color: #2ecc71; /* Green background */
     color: white; /* White text */
