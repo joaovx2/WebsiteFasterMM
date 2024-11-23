@@ -5,8 +5,7 @@ import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal';
 
 function Checkout() {
-    const [{ carrinho }] = useStateValue();
-    
+    const [{ carrinho }] = useStateValue(); 
     return (
         <div className="checkout">
             <h2>Seu carrinho</h2>
@@ -35,5 +34,4 @@ function Checkout() {
         </div>
     );
 }
-
 export default Checkout;
