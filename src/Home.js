@@ -50,7 +50,7 @@ function Home() {
            id = "5"
            title = "Aparador de Pelos Super Groom 10 em 1"
            image = "https://i.imgur.com/qDmcy97.png"
-           price = {839.99}
+           price = {69.99}
            score = {4}
         />
     </div>
@@ -68,7 +68,7 @@ function Home() {
            id = "1"
            title = "Tablet Samsung Galaxy Tab A9+ 11” 64GB - 4GB RAM Android 13 Octa Core Wi-Fi"
            image = "https://i.imgur.com/2oWRTET.png"
-           price = {3.199}
+           price = {899.90}
            score = {5}
         />
         <Product
@@ -91,7 +91,7 @@ function Home() {
            id = "4"
            title = "Cinta Feminina Redutora Abdominal 12 Barbatanas"
            image = "https://i.imgur.com/cKInmq6.png"
-           price = {91.99}
+           price = {81.99}
            score = {5}
         />
          <Product
