@@ -43,7 +43,7 @@ function Product({id, title, image, price, score}) {
         }
      </div>
     </div>
-     <img src={require('./imgs/produto1.png')} alt={title} />
+     <img src={image} alt=""/>
      <div className="product__buttons">
         <div className="button-container">
              PIX <span className="discount"><strong>(-33%)</strong></span>
